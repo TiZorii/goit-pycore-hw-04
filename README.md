@@ -132,7 +132,7 @@ Develop a script that takes a directory path as a command line argument and visu
 > ```
 >
 > The script should output a similar structure.
-> ![structure example](https://s3.eu-north-1.amazonaws.com/lms.goit.files/56275ebf-e261-402d-affd-3688b159bd603.png)
+> ![structure example]
 
 **Task 4**
 
