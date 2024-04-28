@@ -144,9 +144,10 @@ Write a console assistant bot that recognizes commands entered from the keyboard
 
 In this homework, we will focus on the interface of the bot itself. The simplest and most convenient interface at the initial stage of development is a Command Line Interface (CLI). A CLI is relatively easy to implement.
 
-Any CLI consists of three main elements:
-**Command parser**. This part is responsible for parsing the strings entered by the user, extracting keywords and command modifiers from the string.
-**Command handler functions** - a set of functions, also called `handler`, responsible for directly executing commands.
+Any CLI consists of three main elements:\
+
+**Command parser**. This part is responsible for parsing the strings entered by the user, extracting keywords and command modifiers from the string.\
+**Command handler functions** - a set of functions, also called `handler`, responsible for directly executing commands.\
 **Request-response loop**. This part of the application is responsible for receiving data from the user and returning responses from the `handler` functions.
 
 In the first stage, our assistant bot should be able to store names and phone numbers, find a phone number by name, change the stored phone number, and output all saved records to the console. To implement such simple logic, we will use a dictionary. We will store the user's name as the key and the phone number as the value.
